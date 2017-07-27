@@ -53,10 +53,10 @@
       }
 
       _getIconSizeClass(item) {
-        if (item.amount >= 1000) return 'enormous';
-        if (item.amount >= 500) return 'large';
-        if (item.amount >= 100) return 'medium';
-        if (item.amount >= 15) return 'small';
+        if (item.amount >= 101) return 'enormous';
+        if (item.amount >= 100) return 'large';
+        if (item.amount >= 15) return 'medium';
+        if (item.amount >= 1) return 'small';
         return 'tiny';
       }
 
@@ -71,10 +71,10 @@
       }
 
       _getAnimationTimeValue(item) {
-        if (item.amount >= 1000) return 16;
-        if (item.amount >= 500) return 8;
-        if (item.amount >= 100) return 4;
-        if (item.amount >= 15) return 2;
+        if (item.amount >= 101) return 16;
+        if (item.amount >= 100) return 8;
+        if (item.amount >= 15) return 4;
+        if (item.amount >= 1) return 2;
         return 1;
       }
 
