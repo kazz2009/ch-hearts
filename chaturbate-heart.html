@@ -19,7 +19,7 @@
         position: absolute;
         bottom: 0;
         display: none;
-        animation-iteration-count: 3;
+        animation-iteration-count: 10;
       }
 
       .heart iron-icon {
@@ -146,6 +146,181 @@
           right: 0;
         }
       }
+	  @keyframes flowFour {
+        0% {
+          opacity: 0;
+          bottom: 0;
+          right: 8%;
+        }
+        40% {
+          opacity: .8;
+        }
+        50% {
+          opacity: 1;
+          right: 25%
+        }
+        60% {
+          opacity: .9;
+        }
+        80% {
+          bottom: 30%
+        }
+        100% {
+          opacity: 0;
+          bottom: 45%;
+          right: 36%;
+        }
+      }
+	  @keyframes flowFive {
+        0% {
+          opacity: 0;
+          bottom: 0;
+          right: 19%;
+        }
+        40% {
+          opacity: .8;
+        }
+        50% {
+          opacity: 1;
+          right: 38%
+        }
+        60% {
+          opacity: .7;
+        }
+        80% {
+          bottom: 32%
+        }
+        100% {
+          opacity: 0;
+          bottom: 40%;
+          right: 61%;
+        }
+      }
+	  @keyframes flowSix {
+        0% {
+          opacity: 0;
+          bottom: 0;
+          right: 22%;
+        }
+        40% {
+          opacity: .8;
+        }
+        50% {
+          opacity: 1;
+          right: 45%
+        }
+        60% {
+          opacity: .7;
+        }
+        80% {
+          bottom: 22%
+        }
+        100% {
+          opacity: 0;
+          bottom: 37%;
+          right: 29%;
+        }
+      }
+	  @keyframes flowSeven {
+        0% {
+          opacity: 0;
+          bottom: 0;
+          right: 21%;
+        }
+        40% {
+          opacity: .8;
+        }
+        50% {
+          opacity: 1;
+          right: 30%
+        }
+        60% {
+          opacity: .6;
+        }
+        80% {
+          bottom: 70%
+        }
+        100% {
+          opacity: 0;
+          bottom: 90%;
+          right: 15%;
+        }
+      }
+	  @keyframes flowEight {
+        0% {
+          opacity: 0;
+          bottom: 31%;
+          right: 0;
+        }
+        40% {
+          opacity: .8;
+        }
+        50% {
+          opacity: 1;
+          right: 30%
+        }
+        60% {
+          opacity: .2;
+        }
+        80% {
+          bottom: 70%
+        }
+        100% {
+          opacity: 0;
+          bottom: 90%;
+          right: 0;
+        }
+      }
+	  @keyframes flowNine {
+        0% {
+          opacity: 0;
+          bottom: 21%;
+          right: 39%;
+        }
+        40% {
+          opacity: .8;
+        }
+        50% {
+          opacity: 1;
+          right: 56%
+        }
+        60% {
+          opacity: .9;
+        }
+        80% {
+          bottom: 91%
+        }
+        100% {
+          opacity: 0;
+          bottom: 68%;
+          right: 25;
+        }
+      }
+	  @keyframes flowTen {
+        0% {
+          opacity: 0;
+          bottom: 25%;
+          right: 34%;
+        }
+        40% {
+          opacity: .9;
+        }
+        50% {
+          opacity: 1;
+          right: 44%
+        }
+        60% {
+          opacity: .9;
+        }
+        80% {
+          bottom: 55%
+        }
+        100% {
+          opacity: 0;
+          bottom: 79%;
+          right: 32%;
+        }
+      }
     </style>
 
     <div id="heart"
@@ -181,7 +356,7 @@
           },
           animationTime: {
             type: Number,
-            value: 1.6
+            value: 1.9
           },
           sizeClass: {
             type: String,
